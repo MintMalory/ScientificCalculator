@@ -1,4 +1,4 @@
-package com.example.android.myapplication;
+package com.example.android.scientificcalculator;
 
 import android.app.Application;
 import android.test.ApplicationTestCase;

@@ -5,7 +5,7 @@ android {
     buildToolsVersion "23.0.2"
 
     defaultConfig {
-        applicationId "com.example.android.myapplication"
+        applicationId "com.example.android.scientificcalculator"
         minSdkVersion 15
         targetSdkVersion 23
         versionCode 1
