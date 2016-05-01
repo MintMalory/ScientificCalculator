@@ -2,6 +2,9 @@
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:layout_marginLeft="@dimen/linearLayout_margin"
+    android:layout_marginRight="@dimen/linearLayout_margin"
+    android:layout_marginTop="@dimen/linearLayout_margin"
     android:orientation="vertical">
 
     <TextView
@@ -9,9 +12,9 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:padding="6dp"
-        android:text="yy"
+        android:text=""
         android:textAlignment="viewEnd"
-        android:textSize="@dimen/in_sp" />
+        android:textSize="@dimen/textSize_sp" />
 
     <TextView
         android:id="@+id/textView_input"
@@ -20,7 +23,7 @@
         android:background="@drawable/rounded"
         android:padding="6dp"
         android:text=""
-        android:textSize="@dimen/in_sp" />
+        android:textSize="@dimen/textSize_sp" />
 
     <LinearLayout
         android:layout_width="match_parent"
@@ -32,28 +35,38 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_weight="1"
-            android:text="(" />
-        ​
+            android:minHeight="0dp"
+            android:text="("
+            android:textSize="@dimen/textSize_sp" />
+
         <Button
             android:id="@+id/btn_r_bracket"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_weight="1"
-            android:text=")" />
+            android:minHeight="0dp"
+            android:text=")"
+            android:textSize="@dimen/textSize_sp" />
 
         <Button
             android:id="@+id/btn_backspace"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_weight="1"
-            android:text="\u232B" />
+            android:minHeight="0dp"
+            android:text="\u232B"
+            android:textSize="@dimen/textSize_sp" />
         ​
+
         <Button
             android:id="@+id/btn_del"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_weight="1"
-            android:text="DEL" />
+            android:minHeight="0dp"
+            android:text="del"
+            android:textAllCaps="false"
+            android:textSize="@dimen/textSize_sp" />
     </LinearLayout>
     ​
 
@@ -62,33 +75,38 @@
         android:layout_height="wrap_content"
         android:orientation="horizontal">
         ​
+
         <Button
             android:id="@+id/btn_seven"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_weight="1"
-            android:text="7" />
+            android:text="7"
+            android:textSize="@dimen/textSize_sp" />
 
         <Button
             android:id="@+id/btn_eight"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_weight="1"
-            android:text="8" />​
+            android:text="8"
+            android:textSize="@dimen/textSize_sp" />​
 
         <Button
             android:id="@+id/btn_nine"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_weight="1"
-            android:text="9" />​
+            android:text="9"
+            android:textSize="@dimen/textSize_sp" />​
 
         <Button
             android:id="@+id/btn_divided"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_weight="1"
-            android:text="/" />
+            android:text="/"
+            android:textSize="@dimen/textSize_sp" />
     </LinearLayout>
 
     <LinearLayout
@@ -96,35 +114,44 @@
         android:layout_height="wrap_content"
         android:orientation="horizontal">
         ​
+
         <Button
             android:id="@+id/btn_four"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_weight="1"
-            android:text="4" />
+            android:text="4"
+            android:textSize="@dimen/textSize_sp" />
         ​
+
         <Button
             android:id="@+id/btn_five"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_weight="1"
-            android:text="5" />
+            android:text="5"
+            android:textSize="@dimen/textSize_sp" />
         ​
+
         <Button
             android:id="@+id/btn_six"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_weight="1"
-            android:text="6" />
+            android:text="6"
+            android:textSize="@dimen/textSize_sp" />
         ​
+
         <Button
             android:id="@+id/btn_multiply"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_weight="1"
-            android:text="\u00D7" />
+            android:text="\u00D7"
+            android:textSize="@dimen/textSize_sp" />
     </LinearLayout>
     ​
+
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
@@ -135,28 +162,35 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_weight="1"
-            android:text="1" />
+            android:text="1"
+            android:textSize="@dimen/textSize_sp" />
         ​
+
         <Button
             android:id="@+id/btn_two"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_weight="1"
-            android:text="2" />
+            android:text="2"
+            android:textSize="@dimen/textSize_sp" />
         ​
+
         <Button
             android:id="@+id/btn_three"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_weight="1"
-            android:text="3" />
+            android:text="3"
+            android:textSize="@dimen/textSize_sp" />
         ​
+
         <Button
             android:id="@+id/btn_deduct"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_weight="1"
-            android:text="-" />
+            android:text="-"
+            android:textSize="@dimen/textSize_sp" />
     </LinearLayout>
 
     <LinearLayout
@@ -169,27 +203,33 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_weight="1"
-            android:text="0" />
+            android:text="0"
+            android:textSize="@dimen/textSize_sp" />
 
         <Button
             android:id="@+id/btn_point"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_weight="1"
-            android:text="\u002E" />
+            android:text="\u002E"
+            android:textSize="@dimen/textSize_sp" />
         ​
+
         <Button
             android:id="@+id/btn_equally"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_weight="1"
-            android:text="=" />
+            android:text="="
+            android:textSize="@dimen/textSize_sp" />
         ​
+
         <Button
             android:id="@+id/btn_plus"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_weight="1"
-            android:text="+" />
+            android:text="+"
+            android:textSize="@dimen/textSize_sp" />
     </LinearLayout>
 </LinearLayout>

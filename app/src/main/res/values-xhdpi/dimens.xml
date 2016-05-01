@@ -1,0 +1,6 @@
+<resources>
+    <dimen name="textSize_sp">20sp</dimen>
+    <dimen name="textSize_sp_land">18sp</dimen>
+    <dimen name="linearLayout_margin">6dp</dimen>
+</resources>
+

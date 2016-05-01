@@ -1,0 +1,6 @@
+<resources>
+    <dimen name="font_size">16sp</dimen>
+    <dimen name="textSize_sp">12sp</dimen>
+    <dimen name="linearLayout_margin">16dp</dimen>
+</resources>
+

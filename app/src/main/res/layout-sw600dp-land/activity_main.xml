@@ -35,7 +35,6 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_weight="1"
-            android:minHeight="0dp"
             android:text="Exp"
             android:textAllCaps="false"
             android:textSize="@dimen/textSize_sp_land" />
@@ -46,7 +45,6 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_weight="1"
-            android:minHeight="0dp"
             android:text="\u0025"
             android:textSize="@dimen/textSize_sp_land" />
         ​
@@ -56,7 +54,6 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_weight="1"
-            android:minHeight="0dp"
             android:text="x!"
             android:textAllCaps="false"
             android:textSize="@dimen/textSize_sp_land" />
@@ -66,7 +63,6 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_weight="1"
-            android:minHeight="0dp"
             android:text="("
             android:textSize="@dimen/textSize_sp_land" />
         ​
@@ -76,7 +72,6 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_weight="1"
-            android:minHeight="0dp"
             android:text=")"
             android:textSize="@dimen/textSize_sp_land" />
 
@@ -85,7 +80,6 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_weight="1"
-            android:minHeight="0dp"
             android:text="\u232B"
             android:textSize="@dimen/textSize_sp_land" />
         ​
@@ -95,7 +89,6 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_weight="1"
-            android:minHeight="0dp"
             android:text="del"
             android:textAllCaps="false"
             android:textSize="@dimen/textSize_sp_land" />
@@ -113,7 +106,6 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_weight="1"
-            android:minHeight="0dp"
             android:text="mod"
             android:textAllCaps="false"
             android:textSize="@dimen/textSize_sp_land" />
@@ -123,7 +115,6 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_weight="1"
-            android:minHeight="0dp"
             android:text="sin"
             android:textAllCaps="false"
             android:textSize="@dimen/textSize_sp_land" />
@@ -134,7 +125,6 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_weight="1"
-            android:minHeight="0dp"
             android:text="ln"
             android:textAllCaps="false"
             android:textSize="@dimen/textSize_sp_land" />
@@ -145,7 +135,6 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_weight="1"
-            android:minHeight="0dp"
             android:text="7"
             android:textSize="@dimen/textSize_sp_land" />
 
@@ -154,7 +143,6 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_weight="1"
-            android:minHeight="0dp"
             android:text="8"
             android:textSize="@dimen/textSize_sp_land" />​
 
@@ -163,7 +151,6 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_weight="1"
-            android:minHeight="0dp"
             android:text="9"
             android:textSize="@dimen/textSize_sp_land" />​
 
@@ -172,7 +159,6 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_weight="1"
-            android:minHeight="0dp"
             android:text="/"
             android:textSize="@dimen/textSize_sp_land" />
 
@@ -188,7 +174,6 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_weight="1"
-            android:minHeight="0dp"
             android:text="\u03C0"
             android:textAllCaps="false"
             android:textSize="@dimen/textSize_sp_land" />
@@ -198,7 +183,6 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_weight="1"
-            android:minHeight="0dp"
             android:text="cos"
             android:textAllCaps="false"
             android:textSize="@dimen/textSize_sp_land" />
@@ -209,7 +193,6 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_weight="1"
-            android:minHeight="0dp"
             android:text="log"
             android:textAllCaps="false"
             android:textSize="@dimen/textSize_sp_land" />
@@ -220,7 +203,6 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_weight="1"
-            android:minHeight="0dp"
             android:text="4"
             android:textSize="@dimen/textSize_sp_land" />
         ​
@@ -230,7 +212,6 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_weight="1"
-            android:minHeight="0dp"
             android:text="5"
             android:textSize="@dimen/textSize_sp_land" />
         ​
@@ -240,7 +221,6 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_weight="1"
-            android:minHeight="0dp"
             android:text="6"
             android:textSize="@dimen/textSize_sp_land" />
         ​
@@ -250,7 +230,6 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_weight="1"
-            android:minHeight="0dp"
             android:text="\u00D7"
             android:textSize="@dimen/textSize_sp_land" />
 
@@ -267,7 +246,6 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_weight="1"
-            android:minHeight="0dp"
             android:text="e"
             android:textSize="@dimen/textSize_sp_land" />
 
@@ -276,7 +254,6 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_weight="1"
-            android:minHeight="0dp"
             android:text="tan"
             android:textAllCaps="false"
             android:textSize="@dimen/textSize_sp_land" />
@@ -287,7 +264,6 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_weight="1"
-            android:minHeight="0dp"
             android:text="\u221A"
             android:textSize="@dimen/textSize_sp_land" />
 
@@ -296,7 +272,6 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_weight="1"
-            android:minHeight="0dp"
             android:text="1"
             android:textSize="@dimen/textSize_sp_land" />
         ​
@@ -306,7 +281,6 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_weight="1"
-            android:minHeight="0dp"
             android:text="2"
             android:textSize="@dimen/textSize_sp_land" />
         ​
@@ -316,7 +290,6 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_weight="1"
-            android:minHeight="0dp"
             android:text="3"
             android:textSize="@dimen/textSize_sp_land" />
         ​
@@ -326,7 +299,6 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_weight="1"
-            android:minHeight="0dp"
             android:text="-"
             android:textSize="@dimen/textSize_sp_land" />
 
@@ -342,7 +314,6 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_weight="1"
-            android:minHeight="0dp"
             android:text="x^10"
             android:textAllCaps="false"
             android:textSize="@dimen/textSize_sp_land" />
@@ -352,7 +323,6 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_weight="1"
-            android:minHeight="0dp"
             android:text="x^2"
             android:textAllCaps="false"
             android:textSize="@dimen/textSize_sp_land" />
@@ -363,7 +333,6 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_weight="1"
-            android:minHeight="0dp"
             android:text="00"
             android:textSize="@dimen/textSize_sp_land" />
 
@@ -372,7 +341,6 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_weight="1"
-            android:minHeight="0dp"
             android:text="0"
             android:textSize="@dimen/textSize_sp_land" />
 
@@ -381,7 +349,6 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_weight="1"
-            android:minHeight="0dp"
             android:text="\u002E"
             android:textSize="@dimen/textSize_sp_land" />
         ​
@@ -391,7 +358,6 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_weight="1"
-            android:minHeight="0dp"
             android:text="="
             android:textSize="@dimen/textSize_sp_land" />
         ​
@@ -401,7 +367,6 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_weight="1"
-            android:minHeight="0dp"
             android:text="+"
             android:textSize="@dimen/textSize_sp_land" />
 
